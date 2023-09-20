@@ -28,12 +28,12 @@
           <button class="btn operator" onclick="appendOperator('-')">-</button>
           <button class="btn" onclick="clearDisplay()">AC</button>
           <button class="btn" onclick="appendValue(0)">0</button>
-          <button class="btn equal" onclick="calculate()">=</button>
+          <button class="btn equal" onclick="calculate(null)">=</button>
           <button class="btn operator" onclick="appendOperator('+')">+</button>
         </div>
       </div>
       <div class="historyContainer">
-        <div id="memory" class="history">history</div>
+        <div id="history" class="history"></div>
       </div>
     </div>
     <script src="script.js"></script>

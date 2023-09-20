@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+#lastDisplay {
+  height: 43px;
+}
+#currenDisplay {
+  height: 55px;
+}
 
 .calculator {
   display: flex;
@@ -15,6 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  height: 130px;
 }
 
 .currentDisplay {
